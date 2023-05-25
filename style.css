@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subheading-font-weight {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+
+/* NAVBAR */
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+
+.header-navbar {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  padding: 20px 200px 20px 40px;
+  background-color: #fff;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navbar-item .navbar-link {
+  padding: 5px;
+  color: #000;
+}
+
+#navbar-btn {
+  background-color: #5e548e;
+  color: #fff;
+  border-radius: 30px;
+}
+
+/* ABOUT SECTION */
+#hola {
+  margin-top: 100px;
+}
+
+.hola-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hola-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-font {
+  font-family: "Grand Hotel", cursive;
+  font-size: 65px;
+  color: #5e548e;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.hola-btn {
+  height: 50px;
+  width: 155px;
+  padding: 15px 10px 15px 20px;
+  background-color: #5e548e;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.about-img {
+  width: 500px;
+}
+
+/* CONOCIMIENTOS SECTION */
+#conocimientos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.conocimientos-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-bottom: 70px;
+}
+
+.skill {
+  width: 270px;
+  background-color: #faf9f6;
+  border: 1px solid #dddfe5;
+  border-radius: 10px;
+}
+
+.skill-img {
+  width: 120px;
+  margin-top: 38px;
+}
+
+.skill-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* CITA SECTION */
+#cita {
+  background-color: #5e548e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa-quote-right {
+  font-size: 120px;
+}
+
+.quote-author {
+  font-size: 25px;
+}
+
+/* PROYECTOS SECTION */
+#proyectos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.proyectos-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.proyecto {
+  background-color: #faf9f6;
+  border: 1px solid #dddfe5;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.proyecto-name {
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.portfolio {
+  padding-top: 45px;
+}
+
+.proyecto-img {
+  width: 300px;
+  margin: 10px;
+}
+
+/* CONTACTO SECTION */
+#contacto {
+  background-color: pink;
+}
+
+.contacto-container {
+  display: flex;
+  background-color: #faf9f6;
+  border: 1px solid #dddfe5;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #5e548e;
+}
+
+.footer-navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+.footer-navbar-item {
+  margin: 5px;
+  color: #000;
+}
+
+.footer-navbar-link {
+  color: #fff;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-social-item {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 12px;
+  margin: 20px;
+}
+
+.footer-p {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.fa-heart {
+  color: fuchsia;
+}
