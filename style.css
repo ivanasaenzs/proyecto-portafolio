@@ -16,6 +16,7 @@ h1 {
   font-weight: 400;
   font-size: 60px;
   margin-bottom: 20px;
+  color: #603808;
 }
 
 .is-flex {
@@ -63,18 +64,18 @@ header {
 
 .header-navigation-link:hover,
 .contact-social-link:hover {
-  color: red;
+  color: #8b5e34;
 }
 
 .header-navigation-button {
   color: #fff;
-  background-color: #495057;
+  background-color: #8b5e34;
   border-radius: 30px;
   padding: 8px 12px;
 }
 
 .header-navigation-button:hover {
-  background-color: #6c757d;
+  background-color: #a47148;
   transition: background-color 0.3s;
 }
 
@@ -108,13 +109,13 @@ header {
   width: 160px;
   padding: 15px 10px 15px 22px;
   color: #fff;
-  background-color: #495057;
+  background-color: #603808;
   border-radius: 30px;
   font-weight: 500;
 }
 
 .about-button:hover {
-  background-color: #6c757d;
+  background-color: #6f4518;
   transition: background-color 0.1s;
 }
 
@@ -171,7 +172,7 @@ header {
   justify-content: center;
   text-align: center;
   color: #fff;
-  background-color: #495057;
+  background-color: #8b5e34;
   margin-bottom: 100px;
 }
 
@@ -226,7 +227,7 @@ header {
 }
 
 .portfolio {
-  padding-top: 45px;
+  padding-top: 29px;
 }
 
 /* CONTACT */
@@ -290,14 +291,14 @@ header {
   height: 30px;
   width: 80px;
   color: #fff;
-  background-color: #495057;
+  background-color: #8b5e34;
   border-radius: 30px;
   margin-top: 10px;
   cursor: pointer;
 }
 
 .form-button:hover {
-  background-color: #6c757d;
+  background-color: #a47148;
   transition: background-color 0.3s;
 }
 
@@ -316,7 +317,7 @@ footer {
   height: 250px;
   align-items: center;
   justify-content: center;
-  background-color: #495057;
+  background-color: #8b5e34;
 }
 
 .footer-navigation-list {
@@ -353,7 +354,7 @@ footer {
 
 .fa-brands,
 .fa-envelope {
-  color: red;
+  color: #8b5e34;
 }
 
 .footer-legend {
