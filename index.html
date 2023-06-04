@@ -7,203 +7,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
-    <title>Ivana Saenz Samaniego</title>
+    <title>Portafolio de Ivana</title>
     <script src="https://kit.fontawesome.com/085ccf50a5.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@300;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@300;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body>
-    <!--HEADER/NAVBAR-->
-    <header class="sticky-header">
-        <nav class="header-navbar">
-            <ul class="navbar-list">
-                <li class="navbar-item"><a href="#hola" class="navbar-link">HOLA</a></li>
-                <li class="navbar-item"><a href="#conocimientos" class="navbar-link">CONOCIMIENTOS</a></li>
-                <li class="navbar-item"><a href="#proyectos" class="navbar-link">PROYECTOS</a></li>
-                <li class="navbar-item"><a href="#contacto" class="navbar-link" id="navbar-btn">CONTACTO</a></li>
+    <!-- HEADER que contiene la barra de navegación -->
+    <header>
+        <nav class="header-navigation">
+            <ul class="header-navigation-list">
+                <li class="header-navigation-item"><a href="#about" class="header-navigation-link">HOLA</a></li>
+                <li class="header-navigation-item"><a href="#skills" class="header-navigation-link">CONOCIMIENTOS</a>
+                </li>
+                <li class="header-navigation-item"><a href="#projects" class="header-navigation-link">PROYECTOS</a></li>
+                <li class="header-navigation-item"><a href="#contact" class="header-navigation-button">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- ABOUT/HOLA -->
-        <section id="hola">
-            <div class="hola-container">
-                <div class="hola-info">
-                    <p class="subheading-font-weight">¡Hola! Soy</p>
-                    <h1 class="heading-font">Ivana Saenz Samaniego</h1>
-                    <p>Desarrolladora Web en proceso y amante de la música</p>
-                    <a href="#proyectos" class="hola-btn">LO QUE HAGO</a>
+        <!-- ABOUT: sección de presentación -->
+        <section id="about">
+            <div class="about-container">
+                <div class="about-info">
+                    <p class="about-greetings">
+                        ¡Hola! Soy
+                    </p>
+                    <h1>Ivana Saenz Samaniego</h1>
+                    <p class="about-description">
+                        Desarrolladora Frontend en proceso y amante de la música
+                    </p>
+                    <a href="#projects" class="about-button">LO QUE HAGO</a>
                 </div>
-                <img src="/portfolio svg/undraw_dev_focus_re_6iwt.svg" alt="about-img" class="about-img">
+                <img src="/portfolio svg/undraw_proud_coder_re_exuy.svg" alt="about image" class="about-image">
             </div>
         </section>
-
-        <!-- CONOCIMIENTOS -->
-        <section id="conocimientos">
-            <h2 class="subheading-font-weight">Mis conocimientos</h2>
-            <p>Estas son las tecnologías en las que profundizaré en el futuro cercano</p>
-            <div class="conocimientos-container">
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2 class="section-heading">Mis conocimientos</h2>
+            <p class="section-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, praesentium.
+            </p>
+            <div class="skills-cards-container">
                 <figure class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="logo html5"
-                        class="skill-img" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+                        alt="logo html 5" class="skill-image">
                     <figcaption class="skill-name">HTML 5</figcaption>
                 </figure>
                 <figure class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="logo css3"
-                        class="skill-img" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="logo css 3"
+                        class="skill-image">
                     <figcaption class="skill-name">CSS 3</figcaption>
                 </figure>
                 <figure class="skill">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="logo sass"
-                        class="skill-img">
+                        class="skill-image">
                     <figcaption class="skill-name">Sass</figcaption>
                 </figure>
                 <figure class="skill">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
-                        alt="logo javascript" class="skill-img">
+                        alt="logo javascript" class="skill-image">
                     <figcaption class="skill-name">JavaScript</figcaption>
                 </figure>
                 <figure class="skill">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                        alt="logo react" class="skill-img">
+                        alt="logo react" class="skill-image">
                     <figcaption class="skill-name">React</figcaption>
                 </figure>
                 <figure class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="log git"
-                        class="skill-img">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="logo git"
+                        class="skill-image">
                     <figcaption class="skill-name">GIT</figcaption>
                 </figure>
             </div>
         </section>
-
-        <!-- CITA -->
-        <section id="cita">
+        <!-- QUOTE -->
+        <section id="quote">
             <i class="fa-solid fa-quote-right"></i>
             <blockquote>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde hic ab, nisi ex temporibus
-                    architecto
-                    cupiditate quaerat, praesentium deleniti inventore ut deserunt corporis! Dolore vitae corrupti
-                    autem
-                    maxime
-                    eaque est.</p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur cum ut
+                    voluptas vero aliquid.
+                </p>
             </blockquote>
-            <h3 class="quote-author subheading-font-weight">Autor de la cita</h3>
+            <h2 class="quote-author">Autor de la cita</h2>
         </section>
-
-        <!-- PROYECTOS -->
-        <section id="proyectos">
-            <h2 class="subheading-font-weight">Mis proyectos</h2>
-            <p>Acá podrás encontrar mis proyectos a medida que sean completados</p>
-            <div class="proyectos-container">
-                <a href="#" class="proyecto" target="_blank">
-                    <img src="/portfolio svg/Captura de pantalla 2023-05-21 230236.png" alt="" class="proyecto-img">
-                    <p class="proyecto-name portfolio">Portfolio</p>
+        <!-- PROJECTS: sección de proyectos que será completada a lo largo del tiempo -->
+        <section class="projects" id="projects">
+            <h2 class="section-heading">Mis proyectos</h2>
+            <p class="section-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum vitae modi iure dignissimos?
+            </p>
+            <div class="projects-container">
+                <a href="#" target="_blank">
+                    <figure class="project">
+                        <img src="/portfolio svg/Captura de pantalla 2023-05-21 230236.png" alt=""
+                            class="project-image portfolio-image">
+                        <figcaption class="project-name portfolio">Portafolio</figcaption>
+                    </figure>
                 </a>
-                <a href="#" class="proyecto" target="_blank">
-                    <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="proyecto-img">
-                    <p class="proyecto-name">Generador de memes</p>
+                <a href="#" target="_blank">
+                    <figure class="project">
+                        <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="project-image">
+                        <figcaption class="project-name">Generador de memes</figcaption>
+                    </figure>
                 </a>
-                <a href="#" class="proyecto" target="_blank">
-                    <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="proyecto-img">
-                    <p class="proyecto-name">Match 3</p>
+                <a href="#" target="_blank">
+                    <figure class="project">
+                        <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="project-image">
+                        <figcaption class="project-name">Match 3</figcaption>
+                    </figure>
                 </a>
-                <a href="#" class="proyecto" target="_blank">
-                    <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="proyecto-img">
-                    <p class="proyecto-name">Controlador de gastos</p>
+                <a href="#" target="_blank">
+                    <figure class="project">
+                        <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="project-image">
+                        <figcaption class="project-name">Controlador de gastos</figcaption>
+                    </figure>
                 </a>
-                <a href="#" class="proyecto" target="_blank">
-                    <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="proyecto-img">
-                    <p class="proyecto-name">Administrador de reuniones</p>
+                <a href="#" target="_blank">
+                    <figure class="project">
+                        <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="project-image">
+                        <figcaption class="project-name">Administrador de reuniones</figcaption>
+                    </figure>
                 </a>
-                <a href="#" class="proyecto" target="_blank">
-                    <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="proyecto-img">
-                    <p class="proyecto-name">ToDo app</p>
+                <a href="#" target="_blank">
+                    <figure class="project">
+                        <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="project-image">
+                        <figcaption class="project-name">ToDo app</figcaption>
+                    </figure>
+                </a>
+                <a href="#" target="_blank">
+                    <figure class="project">
+                        <img src="/portfolio svg/undraw_under_construction_-46-pa.svg" alt="" class="project-image">
+                        <figcaption class="project-name">Buscador de películas</figcaption>
+                    </figure>
                 </a>
             </div>
         </section>
-
-        <!-- CONTACTO -->
-        <section id="contacto">
-            <div class="contacto-container">
-                <div class="contact-me-box">
-                    <article>
-                        <h2 class="subheading-font-weight">Contactame</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquam praesentium nostrum
-                            iste
-                            maxime
-                            in,
-                            laudantium molestias. Explicabo labore quia alias cupiditate sit. Alias, vitae dicta.</p>
-                        <ul>
-                            <li><a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i>
-                                    @ivanasaenzs</a></li>
-                            <li><a href="https://github.com/ivanasaenzs" target="_blank"><i
-                                        class="fa-brands fa-github"></i>
-                                    @ivanasaenzs</a></li>
-                            <li><a href="https://www.linkedin.com/in/ivana-saenz-samaniego-a2264a157/"
-                                    target="_blank"><i class="fa-brands fa-linkedin"></i> Ivana
-                                    Saenz
-                                    Samaniego</a></li>
-                            <li><a href="mailto:ivanasaenzs7@gmail.com" target="_blank"><i
-                                        class="fa-solid fa-envelope"></i>
-                                    ivanasaenzs7@gmail.com</a></li>
-                        </ul>
-                    </article>
-                </div>
-
-                <div class="message-box">
-                    <article>
-                        <h2 class="subheading-font-weight">Escribime</h2>
-                        <form action="" method="">
-                            <label>
-                                Nombre * <input type="text" placeholder="Escribí tu nombre acá" required>
-                            </label>
-                            <label>
-                                Apellido * <input type="text" placeholder="Escribí tu apellido acá" required>
-                            </label>
-                            <label>
-                                E-mail * <input type="email" placeholder="Escribí tu e-mail acá" required>
-                            </label>
-                            <label for="mensaje">
-                                Mensaje *
-                            </label>
-                            <textarea id="mensaje" cols="25" rows="6" placeholder="Escribí tu mensaje acá"
-                                required></textarea>
-                            <input type="submit" value="Enviar"></input>
-                        </form>
-                    </article>
-                </div>
+        <!-- CONTACT: sección de contacto, formulario de contacto -->
+        <section id="contact">
+            <div class="contact-container">
+                <section class="contact-social-container">
+                    <h2 class="contact-heading">Contactame</h2>
+                    <p class="contact-section-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <ul>
+                        <li class="contact-social-item"><a href="https://discord.com/" target="_blank"
+                                class="contact-social-link"><i class="fa-brands fa-discord"></i>
+                                @ivanasaenzs</a></li>
+                        <li class="contact-social-item"><a href="https://github.com/ivanasaenzs" target="_blank"
+                                class="contact-social-link"><i class="fa-brands fa-github"></i>
+                                @ivanasaenzs</a></li>
+                        <li class="contact-social-item"><a
+                                href="https://www.linkedin.com/in/ivana-saenz-samaniego-a2264a157/" target="_blank"
+                                class="contact-social-link"><i class="fa-brands fa-linkedin"></i> Ivana
+                                Saenz
+                                Samaniego</a></li>
+                        <li class="contact-social-item"><a href="mailto:ivanasaenzs7@gmail.com" target="_blank"
+                                class="contact-social-link"><i class="fa-solid fa-envelope"></i>
+                                ivanasaenzs7@gmail.com</a></li>
+                    </ul>
+                </section>
+                <section class="message-container">
+                    <h2 class="contact-heading">Escribime</h2>
+                    <form action="" class="form-wrapper">
+                        <div class="name-form">
+                            <div class="name-item">
+                                <label for="name">
+                                    Nombre *
+                                </label>
+                                <input type="text" id="name" placeholder="Escribí tu nombre acá" required>
+                            </div>
+                            <div class="lastname-item">
+                                <label for="lastname">
+                                    Apellido *
+                                </label>
+                                <input type="text" id="lastname" placeholder="Escribí tu apellido acá" required>
+                            </div>
+                        </div>
+                        <label class="form-email">
+                            E-mail * <input type="email" placeholder="Escribí tu e-mail acá" required>
+                        </label>
+                        <label for="mensaje">
+                            Mensaje *
+                        </label>
+                        <textarea id="mensaje" cols="25" rows="6" placeholder="Escribí tu mensaje acá"
+                            required></textarea>
+                        <input type="submit" value="Enviar" class="form-button pointer"></input>
+                    </form>
+                </section>
             </div>
         </section>
-    </main>
-    <!-- FOOTER -->
-    <footer>
-        <nav class="footer-navbar">
-            <ul class="footer-navbar-list">
-                <li class="footer-navbar-item"><a href="#hola" class="footer-navbar-link">HOLA</a></li>
-                <li class="footer-navbar-item"><a href="#conocimientos" class="footer-navbar-link">CONOCIMIENTOS</a>
+        <!-- FOOTER: comienza el pie de página -->
+        <footer>
+            <nav>
+                <ul class="footer-navigation-list">
+                    <li class="footer-navigation-item"><a href="#about" class="footer-navigation-link">HOLA</a></li>
+                    <li class="footer-navigation-item"><a href="#skills"
+                            class="footer-navigation-link">CONOCIMIENTOS</a></li>
+                    <li class="footer-navigation-item"><a href="#projects" class="footer-navigation-link">PROYECTOS</a>
+                    </li>
+                    <li class="footer-navigation-item"><a href="#contact" class="footer-navigation-link">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer-contact-list">
+                <li class="footer-contact-item"><a href="https://discord.com/" target="_blank"
+                        class="footer-contact-link"><i class="fa-brands fa-discord"></i></a></li>
+                <li class="footer-contact-item"><a href="https://github.com/ivanasaenzs" target="_blank"
+                        class="footer-contact-link"><i class="fa-brands fa-github"></i></a>
                 </li>
+                <li class="footer-contact-item"><a href="https://www.linkedin.com/in/ivana-saenz-samaniego-a2264a157/"
+                        target="_blank" class="footer-contact-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="footer-contact-item"><a href="mailto:ivanasaenzs7@gmail.com" target="_blank"
+                        class="footer-contact-link"><i class="fa-solid fa-envelope"></i></a>
                 </li>
-                <li class="footer-navbar-item"><a href="#proyectos" class="footer-navbar-link">PROYECTOS</a></li>
-                <li class="footer-navbar-item"><a href="#contacto" class="footer-navbar-link">CONTACTO</a></li>
             </ul>
-        </nav>
-        <ul class="footer-social-list">
-            <li class="footer-social-item"><a href="https://discord.com/" target="_blank"><i
-                        class="fa-brands fa-discord"></i></a></li>
-            <li class="footer-social-item"><a href="https://github.com/ivanasaenzs" target="_blank"><i
-                        class="fa-brands fa-github"></i></a></li>
-            <li class="footer-social-item"><a href="https://www.linkedin.com/in/ivana-saenz-samaniego-a2264a157/"
-                    target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li class="footer-social-item"><a href="mailto:ivanasaenzs7@gmail.com" target="_blank"><i
-                        class="fa-solid fa-envelope"></i></a></li>
-        </ul>
-        <p class="footer-p">Hecho con <i class="fa-solid fa-heart"></i> por Ivana</p>
-    </footer>
+            <p class="footer-legend">Hecho con <i class="fa-solid fa-heart"></i> por Ivana</p>
+        </footer>
+    </main>
+
+
 </body>
 
 </html>
