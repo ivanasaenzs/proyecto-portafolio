@@ -243,6 +243,7 @@ header {
 
 .contact-container {
   display: flex;
+  justify-content: center ;
   background-color: #faf9f6;
   border: 1px solid #dddfe5;
   border-radius: 15px;
@@ -253,6 +254,7 @@ header {
 .contact-social-container {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .contact-section-description {
@@ -266,7 +268,8 @@ header {
 .message-container {
   display: flex;
   flex-direction: column;
-  margin-left: 38px;
+  text-align: left;
+  margin-left: 100px;
 }
 
 .name-form {
