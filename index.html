@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="code.svg" type="image/x-icon">
     <title>Portafolio de Ivana</title>
     <meta property="og:title" content="Portafolio de Ivana">
     <meta property="og:description" content="Sitio web portafolio personal de Ivana">
@@ -16,9 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@300;500&display=swap"
-        rel="stylesheet">
+     rel="stylesheet">
 </head>
-
 <body>
     <!-- HEADER que contiene la barra de navegación -->
     <header>
@@ -32,7 +30,6 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <!-- ABOUT: sección de presentación -->
         <section id="about">
@@ -45,16 +42,18 @@
                     <p class="about-description">
                         Desarrolladora Frontend en proceso y amante de la música
                     </p>
-                    <a href="#projects" class="about-button">LO QUE HAGO</a>
+                    <div class="button-wrapper">
+                        <a href="#projects" class="about-button">LO QUE HAGO</a>
+                    </div>
                 </div>
                 <img src="undraw_proud_coder_re_exuy.svg" alt="about image" class="about-image">
             </div>
         </section>
-        <!-- SKILLS -->
+        <!-- SKILLS: tecnologías con las que me manejo y estaré aprendiendo en el futuro cercano -->
         <section id="skills">
             <h2 class="section-heading">Mis conocimientos</h2>
             <p class="section-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, praesentium.
+                Las tecnologías que estoy aprendiendo y utilizando
             </p>
             <div class="skills-cards-container">
                 <figure class="skill">
@@ -93,19 +92,20 @@
         <section id="quote">
             <i class="fa-solid fa-quote-right"></i>
             <blockquote>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur cum ut
-                    voluptas vero aliquid.
+                <p class="quote-paragraph">
+                    La peor lucha es la que no se hace
                 </p>
             </blockquote>
-            <h2 class="quote-author">Autor de la cita</h2>
+            <h2 class="quote-author">Karl Marx</h2>
         </section>
         <!-- PROJECTS: sección de proyectos que será completada a lo largo del tiempo -->
         <section class="projects" id="projects">
-            <h2 class="section-heading">Mis proyectos</h2>
-            <p class="section-description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum vitae modi iure dignissimos?
-            </p>
+            <div class="projects-info">
+                <h2 class="section-heading">Mis proyectos</h2>
+                <p class="section-description">
+                    Acá encontrarás los proyectos en los que trabajé
+                </p>
+            </div>
             <div class="projects-container">
                 <a href="#" target="_blank">
                     <figure class="project">
@@ -158,7 +158,8 @@
                 <section class="contact-social-container">
                     <h2 class="contact-heading">Contactame</h2>
                     <p class="contact-section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                        Si te gustó lo que viste y querés trabajar conmigo, te podés contactar a través de los
+                        siguientes medios:
                     </p>
                     <ul>
                         <li class="contact-social-item"><a href="https://discord.com/" target="_blank"
@@ -207,36 +208,33 @@
                 </section>
             </div>
         </section>
-        <!-- FOOTER: comienza el pie de página -->
-        <footer>
-            <nav>
-                <ul class="footer-navigation-list">
-                    <li class="footer-navigation-item"><a href="#about" class="footer-navigation-link">HOLA</a></li>
-                    <li class="footer-navigation-item"><a href="#skills"
-                            class="footer-navigation-link">CONOCIMIENTOS</a></li>
-                    <li class="footer-navigation-item"><a href="#projects" class="footer-navigation-link">PROYECTOS</a>
-                    </li>
-                    <li class="footer-navigation-item"><a href="#contact" class="footer-navigation-link">CONTACTO</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="footer-contact-list">
-                <li class="footer-contact-item"><a href="https://discord.com/" target="_blank"
-                        class="footer-contact-link"><i class="fa-brands fa-discord"></i></a></li>
-                <li class="footer-contact-item"><a href="https://github.com/ivanasaenzs" target="_blank"
-                        class="footer-contact-link"><i class="fa-brands fa-github"></i></a>
+    </main>
+    <!-- FOOTER: comienza el pie de página -->
+    <footer>
+        <nav>
+            <ul class="footer-navigation-list">
+                <li class="footer-navigation-item"><a href="#about" class="footer-navigation-link">HOLA</a></li>
+                <li class="footer-navigation-item"><a href="#skills" class="footer-navigation-link">CONOCIMIENTOS</a>
                 </li>
-                <li class="footer-contact-item"><a href="https://www.linkedin.com/in/ivana-saenz-samaniego-a2264a157/"
-                        target="_blank" class="footer-contact-link"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li class="footer-contact-item"><a href="mailto:ivanasaenzs7@gmail.com" target="_blank"
-                        class="footer-contact-link"><i class="fa-solid fa-envelope"></i></a>
+                <li class="footer-navigation-item"><a href="#projects" class="footer-navigation-link">PROYECTOS</a>
+                </li>
+                <li class="footer-navigation-item"><a href="#contact" class="footer-navigation-link">CONTACTO</a>
                 </li>
             </ul>
-            <p class="footer-legend">Hecho con <i class="fa-solid fa-heart"></i> por Ivana</p>
-        </footer>
-    </main>
-
-
+        </nav>
+        <ul class="footer-contact-list">
+            <li class="footer-contact-item"><a href="https://discord.com/" target="_blank"
+                    class="footer-contact-link"><i class="fa-brands fa-discord"></i></a></li>
+            <li class="footer-contact-item"><a href="https://github.com/ivanasaenzs" target="_blank"
+                    class="footer-contact-link"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li class="footer-contact-item"><a href="https://www.linkedin.com/in/ivana-saenz-samaniego-a2264a157/"
+                    target="_blank" class="footer-contact-link"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="footer-contact-item"><a href="mailto:ivanasaenzs7@gmail.com" target="_blank"
+                    class="footer-contact-link"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+        </ul>
+        <p class="footer-legend">Hecho con <i class="fa-solid fa-heart"></i> por Ivana</p>
+    </footer>
 </body>
-
 </html>
