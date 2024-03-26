@@ -243,7 +243,7 @@ header {
 
 .contact-container {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   background-color: #faf9f6;
   border: 1px solid #dddfe5;
   border-radius: 15px;
@@ -370,12 +370,14 @@ footer {
   color: #fff;
   margin-top: 15px;
   padding-bottom: 40px;
+  padding-left: 30px;
 }
 
 .fa-heart {
   color: #f5cac3;
 }
 
+/* MEDIA QUERIES */
 @media (max-width: 580px) {
   .header-navigation {
     display: none;
