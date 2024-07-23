@@ -1,5 +1,5 @@
-# Portafolio de Ivana
+# Ivana's Portfolio
 
-En este repositorio se tendrá acceso a mi portafolio personal 
+Hey! Welcome to my portfolio's repository
 
-:sparkles: [Entrar a mi portafolio personal!](https://ivanasaenzs.github.io/proyecto-portafolio/) :sparkles: 
+:sparkles: [Click here to check out my portfolio! (Always a work in progress)](https://ivanasaenzs.github.io/proyecto-portafolio/) :sparkles:
