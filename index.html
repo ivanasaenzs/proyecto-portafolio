@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="code.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./assets/favicon.ico" />
     <title>Portafolio de Ivana</title>
     <meta property="og:title" content="Portafolio de Ivana" />
     <meta
@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <!-- HEADER que contiene la barra de navegación -->
+    <!-- HEADER -->
     <header>
       <nav class="header-navigation">
         <ul class="header-navigation-list">
@@ -39,14 +39,11 @@
           <li class="header-navigation-item">
             <a href="#projects" class="header-navigation-link">PROJECTS</a>
           </li>
-          <li class="header-navigation-item">
-            <a href="#contact" class="header-navigation-button">CONTACT</a>
-          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <!-- ABOUT: sección de presentación -->
+      <!-- ABOUT -->
       <section id="about">
         <div class="about-container">
           <div class="about-info">
@@ -58,17 +55,17 @@
             </div>
           </div>
           <img
-            src="undraw_proud_coder_re_exuy.svg"
+            src="./assets/undraw_proud_coder_re_exuy.svg"
             alt="about image"
             class="about-image"
           />
         </div>
       </section>
-      <!-- SKILLS: tecnologías con las que me manejo y estaré aprendiendo en el futuro cercano -->
+      <!-- SKILLS -->
       <section id="skills">
         <h2 class="section-heading">My skills</h2>
         <p class="section-description">
-         These are the technologies I currently work with and am learning
+          These are the technologies I currently work with and am learning
         </p>
         <div class="skills-cards-container">
           <figure class="skill">
@@ -119,6 +116,14 @@
             />
             <figcaption class="skill-name">GIT</figcaption>
           </figure>
+          <figure class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg"
+              alt="logo material ui"
+              class="skill-image"
+            />
+            <figcaption class="skill-name">Material UI</figcaption>
+          </figure>
         </div>
       </section>
       <!-- QUOTE -->
@@ -131,26 +136,15 @@
         </blockquote>
         <h2 class="quote-author">Karl Marx</h2>
       </section>
-      <!-- PROJECTS: sección de proyectos que será completada a lo largo del tiempo -->
+      <!-- PROJECTS -->
       <section class="projects" id="projects">
         <div class="projects-info">
           <h2 class="section-heading">My Projects</h2>
           <p class="section-description">
-           Some of the projects I've been working on
+            Some of the projects I've been working on
           </p>
         </div>
         <div class="projects-container">
-          <!-- PROJECT -->
-          <a href="#">
-            <figure class="project">
-              <img
-                src="images/portfolio-project-screenshot.png"
-                alt="screenshot image of portfolio project"
-                class="project-image portfolio-image"
-              />
-              <figcaption class="project-name portfolio">Portfolio</figcaption>
-            </figure>
-          </a>
           <!-- PROJECT -->
           <a
             href="https://ivanasaenzs.github.io/generador-memes/"
@@ -158,7 +152,7 @@
           >
             <figure class="project">
               <img
-                src="images/meme-generator-project-screenshot.png"
+                src="./assets/meme-generator-project-screenshot.png"
                 alt="screenshot image of meme generator application project"
                 class="project-image"
               />
@@ -169,80 +163,35 @@
           <a href="https://ivanasaenzs.github.io/ahorrADAs/" target="_blank">
             <figure class="project">
               <img
-                src="images/finances-app-screenshot.png"
+                src="./assets/finances-app-screenshot.png"
                 alt="screenshot image of finance application project"
                 class="project-image"
               />
               <figcaption class="project-name">Finance Tracker App</figcaption>
             </figure>
           </a>
-        </div>
-      </section>
-      <!-- CONTACT: sección de contacto, formulario de contacto -->
-      <section id="contact">
-        <div class="contact-container">
-          <section class="contact-social-container">
-            <h2 class="contact-heading">Contact me</h2>
-            <p class="contact-section-description">
-              Here's how you can reach me:
-            </p>
-            <ul>
-              <li class="contact-social-item">
-                <a
-                  href="https://github.com/ivanasaenzs"
-                  target="_blank"
-                  class="contact-social-link"
-                  ><i class="fa-brands fa-github"></i>
-                  @ivanasaenzs
-                </a>
-              </li>
-              <li class="contact-social-item">
-                <a
-                  href="https://www.linkedin.com/in/ivana-saenz-samaniego-a2264a157/"
-                  target="_blank"
-                  class="contact-social-link"
-                  ><i class="fa-brands fa-linkedin"></i> Ivana Saenz Samaniego
-                </a>
-              </li>
-              <li class="contact-social-item">
-                <a
-                  href="mailto:ivanasaenzs7@gmail.com"
-                  target="_blank"
-                  class="contact-social-link"
-                  ><i class="fa-solid fa-envelope"></i>
-                  ivanasaenzs7@gmail.com
-                </a>
-              </li>
-            </ul>
-          </section>
-          <section class="message-container">
-                    <h2 class="contact-heading">Write to me</h2>
-                    <form action="" class="form-wrapper">
-                        <div class="name-form">
-                            <div class="name-item">
-                                <label for="name">
-                                    Name *
-                                </label>
-                                <input type="text" id="name" placeholder="Your name here" required>
-                            </div>
-                            <div class="lastname-item">
-                                <label for="lastname">
-                                    Last name *
-                                </label>
-                                <input type="text" id="lastname" placeholder="Your last name here" required>
-                            </div>
-                        </div>
-                        <label class="form-email">
-                            E-mail * <input type="email" placeholder="Your e-mail here" required>
-                        </label>
-                        <label for="mensaje">
-                            Message *
-                        </label>
-                        <textarea id="mensaje" cols="25" rows="6" placeholder="Your message here"
-                            required></textarea>
-                        <input type="submit" value="Send" class="form-button pointer"></input>
-                    </form>
-                </section>
+          <!-- PROJECT -->
+          <a href="https://ivanasaenzs.github.io/musicFinder/" target="_blank">
+            <figure class="project">
+              <img
+                src="./assets/api-project-screenshot.png"
+                alt="screenshot image of project made with an api"
+                class="project-image"
+              />
+              <figcaption class="project-name">musicFinder App</figcaption>
+            </figure>
+          </a>
+          <!-- PROJECT -->
+          <a href="https://todolist-ada.netlify.app" target="_blank">
+            <figure class="project">
+              <img
+                src="./assets/todolist-project-screenshot.png"
+                alt="screenshot image of a to do list project"
+                class="project-image"
+              />
+              <figcaption class="project-name">To-Do List App</figcaption>
+            </figure>
+          </a>
         </div>
       </section>
     </main>
@@ -258,9 +207,6 @@
           </li>
           <li class="footer-navigation-item">
             <a href="#projects" class="footer-navigation-link"> PROJECTS </a>
-          </li>
-          <li class="footer-navigation-item">
-            <a href="#contact" class="footer-navigation-link"> CONTACT </a>
           </li>
         </ul>
       </nav>
